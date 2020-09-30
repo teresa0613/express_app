@@ -10,7 +10,8 @@ const app = express()
 //console.log(app)
 
 app.get('/aboutyou', (req, res) => {
-    res.send(`Your IP address ${req.user} and browser ${req.headers}`)
+    let browser = req.headers['user-agent']
+    res.send(`Your IP address ${req.user} and browser ${browser}`)
 })
 
 app.listen(PORT, () => {

@@ -3,7 +3,7 @@
 import express from 'express'
 const app = express()
 
-const PORT = 3000
+const PORT = 2000
 
 app.get('/aboutme', (req, res) => {
     res.send('My name is Teresa')

@@ -3,7 +3,7 @@ import express from 'express'
 //Add a route /palindromewhich will take a word as a parameter.
 //A message should be returned to the user if the word is a palindrome.
 
-const PORT = 2000
+const PORT = 6000
 const app = express()
 
 app.get('/palindrome/:word', (req, res) => {

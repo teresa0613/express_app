@@ -3,7 +3,7 @@ import express from 'express'
 //Add a route /oddtestwhich will take a number as a parameter.
 //A message must be returned to indicate that the number passed in parameter is odd or even
 
-const PORT = 4000
+const PORT = 5000
 const app = express()
 
 app.get('/oddtest/:number', (req, res) => {

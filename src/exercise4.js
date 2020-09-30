@@ -5,7 +5,7 @@
 
 import express from 'express'
 
-const PORT = 3000
+const PORT = 7777
 const app = express()
 
 app.get('/age/:age', (req, res) => {
